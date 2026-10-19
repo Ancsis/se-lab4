@@ -1,0 +1,3 @@
+# Create a ship with one empty stock, that never fails.
+GT4500,0,0,1,0
+TORPEDO,ALL  # should have fired both, but primary is empty. Still it should be a SUCCESS

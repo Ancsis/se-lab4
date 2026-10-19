@@ -1,0 +1,4 @@
+# Tests what happens if primary was fired, but secondary is empty
+GT4500,2,0,0,0 # Creates a ship with an empty secondary. The ship never fails firing.
+TORPEDO,SINGLE  # should have fired from the primary store
+TORPEDO,SINGLE  # should have fired from the secondary store, but it is empty
